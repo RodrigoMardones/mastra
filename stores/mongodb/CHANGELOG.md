@@ -1,5 +1,21 @@
 # @mastra/mongodb
 
+## 1.16.0-alpha.3
+
+### Patch Changes
+
+- Dataset item scorer selections now persist across MongoDB writes and reads. Setting `scorerIds` to `null` clears an item override, while `[]` remains an explicit override with no scorers. ([#20191](https://github.com/mastra-ai/mastra/pull/20191))
+
+  ```typescript
+  await dataset.addItem({
+    input: 'Evaluate this response',
+    scorerIds: [],
+  });
+  ```
+
+- Updated dependencies:
+  - @mastra/core@1.56.0-alpha.6
+
 ## 1.16.0-alpha.2
 
 ### Minor Changes

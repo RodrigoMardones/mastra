@@ -1,5 +1,7 @@
 # @mastra/core
 
+## 1.56.0-alpha.6
+
 ## 1.56.0-alpha.5
 
 ### Minor Changes

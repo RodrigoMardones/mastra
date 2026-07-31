@@ -1,5 +1,21 @@
 # @mastra/server
 
+## 1.56.0-alpha.6
+
+### Patch Changes
+
+- Added item-level scorer IDs to dataset item create, batch, update, read, history, and version endpoints. Updates distinguish omitted values, `null` inheritance, and explicit empty arrays. ([#20191](https://github.com/mastra-ai/mastra/pull/20191))
+
+  ```typescript
+  await dataset.updateItem({
+    itemId: 'item-id',
+    scorerIds: null,
+  });
+  ```
+
+- Updated dependencies:
+  - @mastra/core@1.56.0-alpha.6
+
 ## 1.56.0-alpha.5
 
 ### Patch Changes

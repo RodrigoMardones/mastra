@@ -1,5 +1,15 @@
 # @mastra/factory
 
+## 0.4.0-alpha.6
+
+### Patch Changes
+
+- Improved Factory pull-request reviews by requiring comparison with analogous codebase patterns. ([#20524](https://github.com/mastra-ai/mastra/pull/20524))
+
+- Updated dependencies:
+  - @mastra/code-sdk@1.1.2-alpha.6
+  - @mastra/core@1.56.0-alpha.6
+
 ## 0.4.0-alpha.5
 
 ### Patch Changes

@@ -1,5 +1,22 @@
 # @mastra/client-js
 
+## 1.37.0-alpha.6
+
+### Patch Changes
+
+- Added typed item-level `scorerIds` support for creating, batch-creating, updating, reading, and inspecting dataset item versions. ([#20191](https://github.com/mastra-ai/mastra/pull/20191))
+
+  ```typescript
+  await client.addDatasetItem({
+    datasetId: 'dataset-id',
+    input: 'Evaluate this response',
+    scorerIds: [],
+  });
+  ```
+
+- Updated dependencies:
+  - @mastra/core@1.56.0-alpha.6
+
 ## 1.37.0-alpha.5
 
 ### Patch Changes
